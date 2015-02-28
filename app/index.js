@@ -57,7 +57,7 @@ SlackCommand.prototype.prompting = function prompting() {
   this.prompt(prompts, function(props) {
     this.githubUsername = props.github || this.githubUsername;
 
-    if(props.commandName.indexOf('slack-')) {
+    if(props.commandName.indexOf('slack-') !== -1) {
       this.moduleName = props.commandName;
       this.commandName = props.commandName.replace('slack-', '');
     } else {
