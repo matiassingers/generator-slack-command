@@ -95,4 +95,6 @@ SlackCommand.prototype.project = function project(){
 
 SlackCommand.prototype.app = function app(){
   this.template('index.js', 'index.js');
+
+  this.template('_app.json', 'app.json');
 };

@@ -1,6 +1,7 @@
 # generator-slack-command [![Build Status](http://img.shields.io/travis/matiassingers/generator-slack-command.svg?style=flat-square)](https://travis-ci.org/matiassingers/generator-slack-command) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/generator-slack-command.svg?style=flat-square)](https://gemnasium.com/matiassingers/generator-slack-command) [![Gitter](http://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](https://gitter.im/matiassingers/generator-slack-command?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 > start a simple Slack slash command server
 
+Includes support for [Heroku Button](https://blog.heroku.com/archives/2014/8/7/heroku-button);
 
 ## Install
 
