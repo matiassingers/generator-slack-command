@@ -1,6 +1,6 @@
 {
   "name": "generator-slack-command",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "start a simple Slack slash command server",
   "main": "app/index.js",
   "scripts": {
