@@ -1,0 +1,29 @@
+{
+  "name": "<%= _.slugify(moduleName) %>",
+  "version": "0.1.0",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubUsername %>/<%= _.slugify(moduleName) %>"
+  },
+  "author": "<%= name %> <<%= email %>> (<%= website %>)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<%= githubUsername %>/<%= _.slugify(moduleName) %>/issues"
+  },
+  "homepage": "https://github.com/<%= githubUsername %>/<%= _.slugify(moduleName) %>",
+  "dependencies": {
+    "querystring": "0.2.0",
+    "slack-notify": "0.1.4"
+  }
+}
