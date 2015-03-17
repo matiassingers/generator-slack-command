@@ -41,7 +41,7 @@ SlackCommand.prototype.prompting = function prompting() {
     }
   }, {
     name: 'commandName',
-    message: 'What is the name of your Slack command? (will prepend `slack-`)',
+    message: 'What is the name of your Slack command? (will prepend `slack-` if not present)',
     default: path.basename(process.cwd())
   }, {
     name: 'description',
@@ -57,12 +57,12 @@ SlackCommand.prototype.prompting = function prompting() {
   this.prompt(prompts, function(props) {
     this.githubUsername = props.github || this.githubUsername;
 
-    if(props.commandName.indexOf('slack-') !== -1) {
+    if(props.commandName.indexOf('slack-') === 0) {
       this.moduleName = props.commandName;
       this.commandName = props.commandName.replace('slack-', '');
     } else {
-      this.commandName = props.commandName;
       this.moduleName = 'slack-' + props.commandName;
+      this.commandName = props.commandName;
     }
 
     this.description = props.description;
