@@ -2,7 +2,7 @@
 > <%= description %>
 
 
-![slack-currency screenshot example](screenshot.png)
+![.slugify(moduleName) screenshot example](screenshot.png)
 
 
 ## Running locally
