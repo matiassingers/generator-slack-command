@@ -31,6 +31,11 @@ I'm all done. Running npm install for you to install the required dependencies. 
 ```
 
 
+## Projects
+- [`slack-movie`](https://github.com/matiassingers/slack-movie)
+- [`slack-currency`](https://github.com/matiassingers/slack-currency)
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
